@@ -1,0 +1,19 @@
+.grid-container {
+    width : 100%;
+    max-width : 1200px;
+}
+.row:before,
+ .row:after {
+     content:"";
+     display: table ;
+    clear:both;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 8,33;
+  paddding : 10px;
+}
+.grid-container *{
+  box-sizing: border-box;
+}
